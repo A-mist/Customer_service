@@ -1,6 +1,5 @@
 import time
 import random
-import config.browser_config
 from config import log,browser_config
 from playwright.sync_api import sync_playwright
 
