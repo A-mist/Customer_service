@@ -2,26 +2,27 @@ import subprocess
 import time
 import arrow
 from config import log
+from pathlib import Path
 
 
-scripts = [
-            "test_mail_login.py",
-            "test_phone_login.py",
-            "test_code_login.py",
-            'test_phone_register.py',
-            'test_mail_register.py',
-            'test_subaccount_login.py',
-           ]
+folder_path =f"/home/lilongwei/PycharmProjects/Customer_service/tests"
+
+
+def get_filenames_using_glob(folder_path):
+    folder = Path(folder_path)
+    # 获取文件夹下的所有文件
+    filenames = [f.name for f in folder.glob('*') if f.is_file()]
+    return filenames
 
 
 def run():
-    for script in scripts:
+    for filename in get_filenames_using_glob(folder_path):
         result = subprocess.run(
-            ["python", f'tests/{script}'],
+            ["python", f'tests/{filename}'],
             capture_output=True,
             text=True
         )
-        print(f"运行 {script} 结果:")
+        print(f"运行 {filename} 结果:")
         print("错误:", result.stderr)
         print("输出:", result.stdout)
         print("返回码:", result.returncode)
