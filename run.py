@@ -1,9 +1,10 @@
 import logging
 import time
-import arrow
+from pathlib import Path
 from threading import Thread
+
+import arrow
 from config import log
-from tests.test_phone_register import test_phone_register_true
 
 
 def run_script(script_name):
@@ -11,12 +12,17 @@ def run_script(script_name):
     import subprocess
     subprocess.call(["python", f'tests/{script_name}'])
 
-# 要运行的脚本列表
-scripts = ["test_mail_login.py", "test_phone_login.py","test_code_login.py", 'test_phone_register.py']
+folder_path =f"/home/lilongwei/PycharmProjects/Customer_service/tests"
+
+def get_filenames_using_glob(folder_path):
+    folder = Path(folder_path)
+    # 获取文件夹下的所有文件
+    filenames = [f.name for f in folder.glob('*') if f.is_file()]
+    return filenames
 
 # 创建线程列表
 threads = []
-for script in scripts:
+for script in get_filenames_using_glob(folder_path):
     t = Thread(target=run_script, args=(script,))
     threads.append(t)
     t.start()
@@ -30,7 +36,7 @@ print("所有脚本执行完毕")
 while True:
     # 写入日志文件
     log.log().info(f"开始新一轮执行...当前时间：{arrow.now().format('YYYY-MM-DD HH:mm:ss')}" )
-    for script in scripts:
+    for script in  get_filenames_using_glob(folder_path):
         Thread(target=run_script, args=(script,)).start()
     time.sleep(36000)  # 休眠10分钟
 

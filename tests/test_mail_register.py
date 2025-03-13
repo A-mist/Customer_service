@@ -5,7 +5,7 @@ from config import log,browser_config
 
 #注册成功
 def test_mail_register_true():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/register')
     page.locator('//*[@id="tab-email"]').click()
     page.locator('[placeholder="请输入邮箱"]').fill(f"14770{random.randint(10000,99999)}@qq.com")
@@ -21,7 +21,7 @@ def test_mail_register_true():
 
 # 邮箱错误
 def test_mail_false_register():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/register')
     page.locator('//*[@id="tab-email"]').click()
     page.locator('[placeholder="请输入邮箱"]').fill(f"14770{random.randint(10000,99999)}")
@@ -36,7 +36,7 @@ def test_mail_false_register():
 
 # 邮箱已注册
 def test_mail_registered():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/register')
     page.locator('//*[@id="tab-email"]').click()
     page.locator('[placeholder="请输入邮箱"]').fill(f"1477051339@qq.com")
@@ -52,7 +52,7 @@ def test_mail_registered():
 
 # 邮箱为空
 def test_mail_null_register():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/register')
     page.locator('//*[@id="tab-email"]').click()
     # page.locator('[placeholder="请输入邮箱"]').fill(f"14770{random.randint(10000,99999)}@qq.com")
@@ -68,7 +68,7 @@ def test_mail_null_register():
 
 # 密码规则错误
 def test_mail_register_passwordfalse():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/register')
     page.locator('//*[@id="tab-email"]').click()
     page.locator('[placeholder="请输入邮箱"]').fill(f"14770{random.randint(10000,99999)}@qq.com")
@@ -84,7 +84,7 @@ def test_mail_register_passwordfalse():
 
 # 密码为空
 def test_mail_register_passwordnull():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/register')
     page.locator('//*[@id="tab-email"]').click()
     page.locator('[placeholder="请输入邮箱"]').fill(f"14770{random.randint(10000,99999)}@qq.com")
@@ -100,7 +100,7 @@ def test_mail_register_passwordnull():
 
 # 两次密码不一致
 def test_mail_register_passwordno():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/register')
     page.locator('//*[@id="tab-email"]').click()
     page.locator('[placeholder="请输入邮箱"]').fill(f"14770{random.randint(10000,99999)}@qq.com")
@@ -116,7 +116,7 @@ def test_mail_register_passwordno():
 
 # 验证码为空
 def test_mail_register_codenull():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/register')
     page.locator('//*[@id="tab-email"]').click()
     page.locator('[placeholder="请输入邮箱"]').fill(f"14770{random.randint(10000,99999)}@qq.com")
@@ -132,7 +132,7 @@ def test_mail_register_codenull():
 
 # 验证码错误
 def test_mail_register_code_false():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/register')
     page.locator('//*[@id="tab-email"]').click()
     page.locator('[placeholder="请输入邮箱"]').fill(f"14770{random.randint(10000,99999)}@qq.com")
@@ -148,7 +148,7 @@ def test_mail_register_code_false():
 
 # 未勾选协议
 def test_mail_register_agreement():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/register')
     page.locator('//*[@id="tab-email"]').click()
     page.locator('[placeholder="请输入邮箱"]').fill(f"14770{random.randint(10000,99999)}@qq.com")

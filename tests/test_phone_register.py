@@ -4,7 +4,7 @@ from playwright.sync_api import sync_playwright,expect
 
 # 注册成功
 def test_phone_register_true():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/register')
     page.locator('[placeholder="请输入手机号"]').fill(f"1851300{random.randint(1000,9999)}")
     page.locator('[placeholder="请输入密码"]').fill('20180914l')
@@ -18,7 +18,7 @@ def test_phone_register_true():
 
 #密码为空
 def test_phone_register_passwordnull():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/register')
     page.locator('[placeholder="请输入手机号"]').fill(f"1851300{random.randint(1000,9999)}")
     # page.locator('[placeholder="请输入密码"]').fill('20180914l')
@@ -32,7 +32,7 @@ def test_phone_register_passwordnull():
 
 # 两次密码不一致
 def test_phone_register_passwordno():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/register')
     page.locator('[placeholder="请输入手机号"]').fill(f"1851300{random.randint(1000,9999)}")
     page.locator('[placeholder="请输入密码"]').fill('20180914l')
@@ -46,7 +46,7 @@ def test_phone_register_passwordno():
 
 # 密码不符合规则
 def test_phone_register_passwordfalse():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/register')
     page.locator('[placeholder="请输入手机号"]').fill(f"1851300{random.randint(1000,9999)}")
     page.locator('[placeholder="请输入密码"]').fill('2018')
@@ -60,7 +60,7 @@ def test_phone_register_passwordfalse():
 
 # 验证码不正确
 def test_phone_register_codefalse():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/register')
     page.locator('[placeholder="请输入手机号"]').fill(f"1851300{random.randint(1000,9999)}")
     page.locator('[placeholder="请输入密码"]').fill('20180914l')
@@ -74,7 +74,7 @@ def test_phone_register_codefalse():
 
 # 验证码为空
 def test_phone_register_codenull():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/register')
     page.locator('[placeholder="请输入手机号"]').fill(f"1851300{random.randint(1000,9999)}")
     page.locator('[placeholder="请输入密码"]').fill('20180914l')
@@ -88,7 +88,7 @@ def test_phone_register_codenull():
 
 # 手机号已注册
 def test_phone_false_register():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/register')
     page.locator('[placeholder="请输入手机号"]').fill(f"18513006430")
     page.locator('[placeholder="请输入密码"]').fill('20180914l')
@@ -103,7 +103,7 @@ def test_phone_false_register():
 
 # 手机号已注册
 def test_phone_register_agreement():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/register')
     page.locator('[placeholder="请输入手机号"]').fill(f"18513006430")
     page.locator('[placeholder="请输入密码"]').fill('20180914l')

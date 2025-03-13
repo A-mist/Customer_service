@@ -305,3 +305,451 @@ playwright._impl._errors.TargetClosedError: Target page, context or browser has 
 2025-03-11 20:36:15,074 - INFO - test_copy_url 复制的内容：737917054421567586
 2025-03-11 20:37:46,559 - INFO - test_copy_url 复制的内容：https://testai.ptdplat.com/login
 2025-03-11 20:37:48,551 - INFO - test_copy_url 复制的内容：737917054421567586
+2025-03-12 16:40:23,011 - INFO - 开始新一轮执行...当前时间：2025-03-12 16:40:23
+2025-03-12 16:40:23,011 - INFO - 开始执行脚本: test_mail_login.py
+2025-03-12 16:40:23,012 - INFO - 开始执行脚本: test_phone_login.py
+2025-03-12 16:40:23,012 - INFO - 开始执行脚本: test_code_login.py
+2025-03-12 16:40:23,012 - INFO - 开始执行脚本: test_phone_register.py
+2025-03-12 16:40:23,030 - ERROR - 脚本 test_phone_register.py 执行失败: Traceback (most recent call last):
+  File "/home/lilongwei/PycharmProjects/Customer_service/tests/test_phone_register.py", line 2, in <module>
+    from config import log,browser_config
+ModuleNotFoundError: No module named 'config'
+
+2025-03-12 16:40:23,030 - INFO - 脚本 test_phone_register.py 执行失败
+2025-03-12 16:40:23,127 - ERROR - 脚本 test_code_login.py 执行失败: Traceback (most recent call last):
+  File "/home/lilongwei/PycharmProjects/Customer_service/tests/test_code_login.py", line 2, in <module>
+    from config import browser_config,log
+ModuleNotFoundError: No module named 'config'
+
+2025-03-12 16:40:23,127 - ERROR - 脚本 test_mail_login.py 执行失败: Traceback (most recent call last):
+  File "/home/lilongwei/PycharmProjects/Customer_service/tests/test_mail_login.py", line 2, in <module>
+    from config import browser_config,log
+ModuleNotFoundError: No module named 'config'
+
+2025-03-12 16:40:23,127 - ERROR - 脚本 test_phone_login.py 执行失败: Traceback (most recent call last):
+  File "/home/lilongwei/PycharmProjects/Customer_service/tests/test_phone_login.py", line 2, in <module>
+    from config import browser_config,log
+ModuleNotFoundError: No module named 'config'
+
+2025-03-12 16:40:23,127 - INFO - 脚本 test_code_login.py 执行失败
+2025-03-12 16:40:23,127 - INFO - 脚本 test_mail_login.py 执行失败
+2025-03-12 16:40:23,127 - INFO - 脚本 test_phone_login.py 执行失败
+2025-03-12 16:40:23,128 - INFO - 本轮执行完成，等待 10.0 小时后开始下一轮...
+2025-03-12 16:41:55,182 - INFO - 收到退出信号，正在优雅关闭...
+2025-03-12 16:43:39,357 - INFO - 开始新一轮执行...当前时间：2025-03-12 16:43:39
+2025-03-12 16:43:39,357 - INFO - 开始执行脚本: test_mail_login.py
+2025-03-12 16:43:39,358 - INFO - 开始执行脚本: test_code_login.py
+2025-03-12 16:43:39,359 - INFO - 开始执行脚本: test_phone_login.py
+2025-03-12 16:43:39,359 - INFO - 开始执行脚本: test_phone_register.py
+2025-03-12 16:43:39,382 - ERROR - 脚本 test_phone_register.py 执行失败: Traceback (most recent call last):
+  File "/home/lilongwei/PycharmProjects/Customer_service/tests/test_phone_register.py", line 2, in <module>
+    from config import log,browser_config
+ModuleNotFoundError: No module named 'config'
+
+2025-03-12 16:43:39,383 - INFO - 脚本 test_phone_register.py 执行失败
+2025-03-12 16:43:39,461 - ERROR - 脚本 test_code_login.py 执行失败: Traceback (most recent call last):
+  File "/home/lilongwei/PycharmProjects/Customer_service/tests/test_code_login.py", line 2, in <module>
+    from config import browser_config,log
+ModuleNotFoundError: No module named 'config'
+
+2025-03-12 16:43:39,462 - ERROR - 脚本 test_mail_login.py 执行失败: Traceback (most recent call last):
+  File "/home/lilongwei/PycharmProjects/Customer_service/tests/test_mail_login.py", line 2, in <module>
+    from config import browser_config,log
+ModuleNotFoundError: No module named 'config'
+
+2025-03-12 16:43:39,462 - INFO - 脚本 test_code_login.py 执行失败
+2025-03-12 16:43:39,462 - INFO - 脚本 test_mail_login.py 执行失败
+2025-03-12 16:43:39,463 - ERROR - 脚本 test_phone_login.py 执行失败: Traceback (most recent call last):
+  File "/home/lilongwei/PycharmProjects/Customer_service/tests/test_phone_login.py", line 2, in <module>
+    from config import browser_config,log
+ModuleNotFoundError: No module named 'config'
+
+2025-03-12 16:43:39,463 - INFO - 脚本 test_phone_login.py 执行失败
+2025-03-12 16:43:39,464 - INFO - 本轮执行完成，等待 10.0 小时后开始下一轮...
+2025-03-12 16:45:27,810 - INFO - 收到退出信号，正在优雅关闭...
+2025-03-12 16:45:29,465 - INFO - 测试运行器已停止
+2025-03-12 16:45:29,466 - INFO - 程序已退出
+2025-03-12 16:46:21,463 - INFO - 开始新一轮执行...当前时间：2025-03-12 16:46:21
+2025-03-12 16:46:21,463 - INFO - 开始执行脚本: test_mail_login.py
+2025-03-12 16:46:21,464 - INFO - 开始执行脚本: test_phone_login.py
+2025-03-12 16:46:21,464 - INFO - 开始执行脚本: test_code_login.py
+2025-03-12 16:46:21,465 - INFO - 开始执行脚本: test_phone_register.py
+2025-03-12 16:46:21,482 - ERROR - 脚本 test_phone_register.py 执行失败: Traceback (most recent call last):
+  File "/home/lilongwei/PycharmProjects/Customer_service/tests/test_phone_register.py", line 2, in <module>
+    from config import log,browser_config
+ModuleNotFoundError: No module named 'config'
+
+2025-03-12 16:46:21,483 - INFO - 脚本 test_phone_register.py 执行失败
+2025-03-12 16:46:21,572 - ERROR - 脚本 test_phone_login.py 执行失败: Traceback (most recent call last):
+  File "/home/lilongwei/PycharmProjects/Customer_service/tests/test_phone_login.py", line 2, in <module>
+    from config import browser_config,log
+ModuleNotFoundError: No module named 'config'
+
+2025-03-12 16:46:21,572 - ERROR - 脚本 test_mail_login.py 执行失败: Traceback (most recent call last):
+  File "/home/lilongwei/PycharmProjects/Customer_service/tests/test_mail_login.py", line 2, in <module>
+    from config import browser_config,log
+ModuleNotFoundError: No module named 'config'
+
+2025-03-12 16:46:21,572 - INFO - 脚本 test_phone_login.py 执行失败
+2025-03-12 16:46:21,573 - ERROR - 脚本 test_code_login.py 执行失败: Traceback (most recent call last):
+  File "/home/lilongwei/PycharmProjects/Customer_service/tests/test_code_login.py", line 2, in <module>
+    from config import browser_config,log
+ModuleNotFoundError: No module named 'config'
+
+2025-03-12 16:46:21,573 - INFO - 脚本 test_mail_login.py 执行失败
+2025-03-12 16:46:21,573 - INFO - 脚本 test_code_login.py 执行失败
+2025-03-12 16:46:21,573 - INFO - 本轮执行完成，等待 10.0 小时后开始下一轮...
+2025-03-12 16:51:26,156 - INFO - 工作目录设置为: /home/lilongwei/PycharmProjects/Customer_service
+2025-03-12 16:51:26,157 - INFO - Python路径: ['/home/lilongwei/PycharmProjects/Customer_service', '/home/lilongwei/PycharmProjects/Customer_service', '/usr/lib/python312.zip', '/usr/lib/python3.12', '/usr/lib/python3.12/lib-dynload', '/home/lilongwei/PycharmProjects/Customer_service/.venv/lib/python3.12/site-packages']
+2025-03-12 16:51:46,265 - INFO - 工作目录设置为: /home/lilongwei/PycharmProjects/Customer_service
+2025-03-12 16:51:46,265 - INFO - Python路径: ['/home/lilongwei/PycharmProjects/Customer_service', '/home/lilongwei/PycharmProjects/Customer_service', '/usr/lib/python312.zip', '/usr/lib/python3.12', '/usr/lib/python3.12/lib-dynload', '/home/lilongwei/PycharmProjects/Customer_service/.venv/lib/python3.12/site-packages']
+2025-03-12 16:51:46,265 - ERROR - 程序执行过程中发生错误: 'TestRunner' object has no attribute 'run_periodic'
+2025-03-12 16:51:46,265 - INFO - 程序已退出
+2025-03-12 16:52:37,967 - INFO - ----------验证码登陆 UI自动化测试---------
+2025-03-12 16:52:37,967 - INFO - ----------手机号注册UI自动化测试---------
+2025-03-12 16:52:37,967 - INFO - ----------手机号登陆UI自动化测试---------
+2025-03-12 16:52:37,972 - INFO - ----------邮箱登陆 UI自动化测试---------
+2025-03-12 16:53:10,004 - INFO - 开始新一轮执行...当前时间：2025-03-12 16:53:10
+2025-03-12 16:53:10,289 - INFO - ----------手机号注册UI自动化测试---------
+2025-03-12 16:53:10,308 - INFO - ----------邮箱登陆 UI自动化测试---------
+2025-03-12 16:53:10,312 - INFO - ----------验证码登陆 UI自动化测试---------
+2025-03-12 16:53:10,316 - INFO - ----------手机号登陆UI自动化测试---------
+2025-03-12 16:54:42,143 - INFO - ----------子账号登陆 UI自动化测试---------
+2025-03-12 16:54:44,417 - INFO - test_subaccount_login 登陆提示：登录成功
+2025-03-12 16:54:46,288 - INFO - test_subaccount_password_false 登陆提示：密码错误
+2025-03-12 16:54:48,022 - INFO - test_subaccount_false 登陆提示：用户不存在
+2025-03-12 16:56:16,990 - INFO - 开始新一轮执行...当前时间：2025-03-12 16:56:16
+2025-03-12 16:56:17,242 - INFO - ----------邮箱登陆 UI自动化测试---------
+2025-03-12 16:56:20,541 - INFO - test_mail_login_true 登陆提示: 登录成功
+2025-03-12 16:56:22,996 - INFO - test_mail_false 登陆提示: 邮箱 不存在。
+2025-03-12 16:56:25,258 - INFO - test_password_false 登陆提示: 密码错误
+2025-03-12 16:56:27,049 - INFO - test_mail_null 登陆提示: 请输入邮箱
+2025-03-12 16:56:28,855 - INFO - test_password_null 登陆提示: 请输入密码
+2025-03-12 16:56:29,277 - INFO - ----------手机号登陆UI自动化测试---------
+2025-03-12 16:56:31,737 - INFO - test_phone_login_true 登陆提示: 密码错误
+2025-03-12 16:56:34,346 - INFO - test_phone_false 登陆提示: 手机号 不存在。
+2025-03-12 16:56:36,663 - INFO - test_password_false 登陆提示: 密码错误
+2025-03-12 16:56:38,380 - INFO - test_phone_null 登陆提示: 请输入手机号
+2025-03-12 16:56:40,146 - INFO - test_password_null 登陆提示: 请输入密码
+2025-03-12 16:56:40,599 - INFO - ----------验证码登陆 UI自动化测试---------
+2025-03-12 16:56:43,437 - INFO - test_code_login_true 登陆提示: 登录成功
+2025-03-12 16:56:45,896 - INFO - test_code_login_false 登陆提示: 短信验证码输入错误
+2025-03-12 16:56:47,707 - INFO - test_code_login_null 登陆提示: 请输入验证码
+2025-03-12 16:56:50,019 - INFO - test_code_phone_login_false 登陆提示: 手机号 不存在。
+2025-03-12 16:56:50,459 - INFO - ----------手机号注册UI自动化测试---------
+2025-03-12 16:57:21,780 - INFO - ----------邮箱注册UI自动化测试---------
+2025-03-12 16:57:53,040 - INFO - ----------子账号登陆 UI自动化测试---------
+2025-03-12 16:57:54,944 - INFO - test_subaccount_login 登陆提示：登录成功
+2025-03-12 16:57:56,881 - INFO - test_subaccount_password_false 登陆提示：密码错误
+2025-03-12 16:57:58,749 - INFO - test_subaccount_false 登陆提示：用户不存在
+2025-03-12 17:01:18,464 - INFO - 开始新一轮执行...当前时间：2025-03-12 17:01:18
+2025-03-12 17:01:18,708 - INFO - ----------邮箱登陆 UI自动化测试---------
+2025-03-12 17:01:21,968 - INFO - test_mail_login_true 登陆提示: 登录成功
+2025-03-12 17:01:24,316 - INFO - test_mail_false 登陆提示: 邮箱 不存在。
+2025-03-12 17:01:26,585 - INFO - test_password_false 登陆提示: 密码错误
+2025-03-12 17:01:28,357 - INFO - test_mail_null 登陆提示: 请输入邮箱
+2025-03-12 17:01:30,103 - INFO - test_password_null 登陆提示: 请输入密码
+2025-03-12 17:01:30,523 - INFO - ----------手机号登陆UI自动化测试---------
+2025-03-12 17:01:32,746 - INFO - test_phone_login_true 登陆提示: 密码错误
+2025-03-12 17:01:35,096 - INFO - test_phone_false 登陆提示: 手机号 不存在。
+2025-03-12 17:01:37,330 - INFO - test_password_false 登陆提示: 密码错误
+2025-03-12 17:01:39,098 - INFO - test_phone_null 登陆提示: 请输入手机号
+2025-03-12 17:01:40,835 - INFO - test_password_null 登陆提示: 请输入密码
+2025-03-12 17:01:41,232 - INFO - ----------验证码登陆 UI自动化测试---------
+2025-03-12 17:01:44,084 - INFO - test_code_login_true 登陆提示: 登录成功
+2025-03-12 17:01:46,531 - INFO - test_code_login_false 登陆提示: 短信验证码输入错误
+2025-03-12 17:01:48,331 - INFO - test_code_login_null 登陆提示: 请输入验证码
+2025-03-12 17:01:50,650 - INFO - test_code_phone_login_false 登陆提示: 手机号 不存在。
+2025-03-12 17:01:51,057 - INFO - ----------手机号注册UI自动化测试---------
+2025-03-12 17:02:22,270 - INFO - ----------邮箱注册UI自动化测试---------
+2025-03-12 17:02:25,287 - INFO - test_mail_register_true 登陆提示：登录成功
+2025-03-12 17:02:26,524 - INFO - test_mail_register_true 登陆提示：请输入正确的邮箱地址
+2025-03-12 17:02:29,452 - INFO - test_mail_register_true 登陆提示：请输入邮箱
+2025-03-12 17:02:31,852 - INFO - test_mail_register_true 登陆提示：邮箱 已经存在。
+2025-03-12 17:02:33,000 - INFO - test_mail_register_passwordno 登陆提示：两次密码不一致
+2025-03-12 17:02:35,720 - ERROR - Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+2025-03-12 17:02:53,019 - INFO - 开始新一轮执行...当前时间：2025-03-12 17:02:53
+2025-03-12 17:02:53,260 - INFO - ----------邮箱登陆 UI自动化测试---------
+2025-03-12 17:02:56,564 - INFO - test_mail_login_true 登陆提示: 登录成功
+2025-03-12 17:02:58,977 - INFO - test_mail_false 登陆提示: 邮箱 不存在。
+2025-03-12 17:03:01,381 - INFO - test_password_false 登陆提示: 密码错误
+2025-03-12 17:03:03,267 - INFO - test_mail_null 登陆提示: 请输入邮箱
+2025-03-12 17:03:05,079 - INFO - test_password_null 登陆提示: 请输入密码
+2025-03-12 17:03:05,566 - INFO - ----------手机号登陆UI自动化测试---------
+2025-03-12 17:03:07,905 - INFO - test_phone_login_true 登陆提示: 密码错误
+2025-03-12 17:03:10,207 - INFO - test_phone_false 登陆提示: 手机号 不存在。
+2025-03-12 17:03:12,435 - INFO - test_password_false 登陆提示: 密码错误
+2025-03-12 17:03:14,176 - INFO - test_phone_null 登陆提示: 请输入手机号
+2025-03-12 17:03:15,941 - INFO - test_password_null 登陆提示: 请输入密码
+2025-03-12 17:03:16,376 - INFO - ----------验证码登陆 UI自动化测试---------
+2025-03-12 17:03:19,205 - INFO - test_code_login_true 登陆提示: 登录成功
+2025-03-12 17:03:21,669 - INFO - test_code_login_false 登陆提示: 短信验证码输入错误
+2025-03-12 17:03:24,221 - INFO - test_code_login_null 登陆提示: 请输入验证码
+2025-03-12 17:03:26,627 - INFO - test_code_phone_login_false 登陆提示: 手机号 不存在。
+2025-03-12 17:03:27,018 - INFO - ----------手机号注册UI自动化测试---------
+2025-03-12 17:03:29,400 - INFO - test_phone_register_true 登陆提示：登录成功
+2025-03-12 17:03:31,963 - INFO - test_phone_false_register 登陆提示：该手机号已注册，请勿重新注册
+2025-03-12 17:03:33,827 - INFO - test_phone_register_passwordnull 登陆提示：请输入密码
+2025-03-12 17:03:34,815 - INFO - test_phone_register_passwordfalse 登陆提示：密码长度应为8~30位
+2025-03-12 17:03:35,889 - INFO - test_phone_register_passwordNo 登陆提示：两次密码不一致
+2025-03-12 17:03:38,213 - INFO - test_phone_register_codefalse 登陆提示：短信验证码输入错误
+2025-03-12 17:03:40,649 - INFO - test_phone_register_codenull 登陆提示：请输入验证码
+2025-03-12 17:03:42,493 - INFO - test_phone_register_agreement 登陆提示：请阅读并同意用户协议和隐私政策
+2025-03-12 17:03:43,050 - INFO - ----------邮箱注册UI自动化测试---------
+2025-03-12 17:03:45,968 - INFO - test_mail_register_true 登陆提示：登录成功
+2025-03-12 17:03:47,245 - INFO - test_mail_register_true 登陆提示：请输入正确的邮箱地址
+2025-03-12 17:03:50,210 - INFO - test_mail_register_true 登陆提示：请输入邮箱
+2025-03-12 17:03:52,569 - INFO - test_mail_register_true 登陆提示：邮箱 已经存在。
+2025-03-12 17:03:53,686 - INFO - test_mail_register_passwordno 登陆提示：两次密码不一致
+2025-03-12 17:03:55,630 - INFO - test_mail_register_passwordnull 登陆提示：请输入密码
+2025-03-12 17:03:56,686 - INFO - test_mail_register_passwordfalse 登陆提示：密码必须包含字母（符号）、数字的至少两种组合。
+2025-03-12 17:03:58,566 - INFO - test_mail_register_codenull 登陆提示：请输入验证码
+2025-03-12 17:04:00,946 - INFO - test_mail_register_code_false 登陆提示：验证码不存在
+2025-03-12 17:04:02,918 - INFO - test_mail_register_agreement 登陆提示：请阅读并同意用户协议和隐私政策
+2025-03-12 17:04:03,493 - INFO - ----------子账号登陆 UI自动化测试---------
+2025-03-12 17:04:07,274 - INFO - test_subaccount_login 登陆提示：登录成功
+2025-03-12 17:04:09,206 - INFO - test_subaccount_password_false 登陆提示：密码错误
+2025-03-12 17:04:11,043 - INFO - test_subaccount_false 登陆提示：用户不存在
+
+
+
+
+
+
+
+
+2025-03-12 17:30:39,699 - INFO - 开始新一轮执行...当前时间：2025-03-12 17:30:39
+2025-03-12 17:47:27,275 - INFO - 开始新一轮执行...当前时间：2025-03-12 17:47:27
+2025-03-12 18:16:57,137 - INFO - 开始新一轮执行...当前时间：2025-03-12 18:16:57
+2025-03-12 18:18:16,517 - INFO - 开始新一轮执行...当前时间：2025-03-12 18:18:16
+2025-03-12 18:23:12,590 - INFO - 开始新一轮执行...当前时间：2025-03-12 18:23:12
+2025-03-12 18:25:11,893 - INFO - 开始新一轮执行...当前时间：2025-03-12 18:25:11
+2025-03-12 19:25:49,921 - INFO - ----------手机号注册UI自动化测试---------
+2025-03-12 19:25:52,828 - INFO - test_phone_register_true 登陆提示：登录成功
+2025-03-12 19:25:55,166 - INFO - test_phone_false_register 登陆提示：该手机号已注册，请勿重新注册
+2025-03-12 19:25:56,962 - INFO - test_phone_register_passwordnull 登陆提示：请输入密码
+2025-03-12 19:25:58,185 - INFO - test_phone_register_passwordfalse 登陆提示：密码长度应为8~30位
+2025-03-12 19:25:59,301 - INFO - test_phone_register_passwordNo 登陆提示：两次密码不一致
+2025-03-12 19:26:04,792 - INFO - test_phone_register_codefalse 登陆提示：短信验证码输入错误
+2025-03-12 19:26:07,465 - INFO - test_phone_register_codenull 登陆提示：请输入验证码
+2025-03-12 19:26:10,130 - INFO - test_phone_register_agreement 登陆提示：请阅读并同意用户协议和隐私政策
+2025-03-12 19:26:20,903 - INFO - ----------验证码登陆 UI自动化测试---------
+2025-03-12 19:26:23,746 - INFO - test_code_login_true 登陆提示: 登录成功
+2025-03-12 19:26:26,153 - INFO - test_code_login_false 登陆提示: 短信验证码输入错误
+2025-03-12 19:26:27,966 - INFO - test_code_login_null 登陆提示: 请输入验证码
+2025-03-12 19:26:30,332 - INFO - test_code_phone_login_false 登陆提示: 手机号 不存在。
+2025-03-12 19:27:12,146 - INFO - test_code_login_true 登陆提示: 登录成功
+2025-03-12 19:27:21,203 - INFO - test_code_login_true 登陆提示: 登录成功
+2025-03-12 19:28:34,511 - INFO - ----------验证码登陆 UI自动化测试---------
+2025-03-12 19:28:37,321 - INFO - test_code_login_true 登陆提示: 登录成功
+2025-03-12 19:30:26,731 - INFO - 登陆提示: 未登录，请先登录。
+2025-03-12 19:30:55,909 - INFO - 登陆提示: 登录成功
+2025-03-12 19:31:39,917 - INFO - 登陆提示: 登录成功
+2025-03-12 19:31:51,663 - INFO - ----------手机号注册UI自动化测试---------
+2025-03-12 19:31:54,049 - INFO - test_phone_register_true 登陆提示：登录成功
+2025-03-12 19:31:56,689 - INFO - test_phone_false_register 登陆提示：该手机号已注册，请勿重新注册
+2025-03-12 19:32:17,705 - INFO - test_update_username 修改：修改成功
+2025-03-12 19:32:31,681 - INFO - test_update_mail 修改：操作成功
+2025-03-12 19:32:40,543 - INFO - test_update_mail 修改：操作成功
+2025-03-12 19:35:39,660 - INFO - test_update_mail 修改：操作成功
+2025-03-12 19:36:41,193 - INFO - test_update_mail 修改：操作成功
+2025-03-12 19:36:44,857 - INFO - test_update_phone 修改：操作成功
+2025-03-12 19:36:50,862 - INFO - test_update_mail 修改：操作成功
+2025-03-12 19:36:54,458 - INFO - test_update_phone 修改：操作成功
+2025-03-12 19:37:24,126 - INFO - test_update_mail 修改：操作成功
+2025-03-12 19:37:37,619 - INFO - test_update_phone 修改：操作成功
+2025-03-12 19:37:56,868 - INFO - test_update_mail 修改：操作成功
+2025-03-12 19:38:00,675 - INFO - test_update_phone 修改：操作成功
+2025-03-12 19:38:13,612 - INFO - test_update_mail 修改：操作成功
+2025-03-12 19:38:19,391 - INFO - test_update_phone 修改：操作成功
+2025-03-12 19:38:37,387 - INFO - test_update_mail 修改：操作成功
+2025-03-12 19:38:45,922 - INFO - test_update_phone 修改：操作成功
+2025-03-12 19:39:32,423 - INFO - test_update_username 修改：修改成功
+2025-03-12 19:39:35,502 - INFO - test_update_mail 修改：操作成功
+2025-03-12 19:39:43,577 - INFO - test_update_phone 修改：操作成功
+2025-03-12 19:39:44,625 - INFO - test_copy_url 复制的内容：https://testai.ptdplat.com/login
+2025-03-12 19:39:46,576 - INFO - test_copy_url 复制的内容：737917054421567586
+2025-03-12 19:47:50,760 - INFO - test_update_password 修改：新密码 至少为 8 个字符。
+2025-03-12 19:48:14,879 - INFO - test_update_password 修改：旧密码验证失败
+2025-03-12 20:31:26,755 - INFO - test_copy_url 复制的登陆地址：message = page.evaluate(
+        """
+            async () => {
+                try 
+                {
+                    return await navigator.clipboard.readText();
+                } 
+                catch (err) 
+                {
+                    console.error("无法读取剪贴板:", err);
+                    return null;
+                }
+            }
+        """
+                            )
+    log.log().info('test_copy_url 复制的登陆地址：%s', message)
+2025-03-12 20:32:29,029 - INFO - test_add_user 复制账号密码：test_add_user
+2025-03-12 20:34:02,264 - INFO - test_add_user 复制账号密码：登录地址：https://testai.ptdplat.com/login/account
+子账号：lc_21312@737917054421567586
+密码：IX$WWYEgxW925i18mKuQuLlezl
+2025-03-12 20:34:21,395 - INFO - test_add_user 复制账号密码：登录地址：https://testai.ptdplat.com/login/account
+子账号：lc_21312@737917054421567586
+密码：IX$WWYEgxW925i18mKuQuLlezl
+2025-03-12 20:39:40,084 - INFO - test_add_user 复制账号密码：log.log().info('test_add_user 复制账号密码：%s', copy,message)
+2025-03-12 20:41:37,823 - INFO - test_add_user 复制账号密码：复制失败
+2025-03-12 20:45:36,615 - INFO - test_add_user 复制账号密码：复制失败
+2025-03-12 20:52:53,940 - INFO - test_add_user 复制账号密码：复制失败
+2025-03-12 20:53:18,104 - INFO - test_add_user 复制账号密码：复制失败
+2025-03-12 21:06:25,818 - INFO - test_add_user 复制账号密码：复制失败
+2025-03-12 21:07:53,179 - INFO - test_add_user 复制账号密码：复制失败
+2025-03-13 11:05:22,104 - INFO - test_add_user 复制账号密码：复制失败
+2025-03-13 11:48:23,750 - INFO - test_add_user 复制账号密码：复制失败
+2025-03-13 14:12:46,879 - INFO - test_add_user 复制账号密码：复制失败
+2025-03-13 14:21:31,805 - INFO - test_add_user 复制账号密码：复制失败
+2025-03-13 14:29:49,042 - INFO - test_add_user 复制账号密码：复制失败
+2025-03-13 15:18:29,971 - INFO - test_add_role 添加角色：操作成功
+2025-03-13 15:45:43,789 - INFO - test_views_role 查看角色。
+2025-03-13 15:49:37,229 - INFO - test_views_role 查看角色: JSHandle@<div class="el-input is-disabled">…</div>
+2025-03-13 15:50:15,243 - INFO - test_views_role 查看角色: 
+2025-03-13 15:50:29,989 - INFO - test_views_role 查看角色: 
+2025-03-13 16:03:26,369 - INFO - test_add_role 添加角色：操作成功
+2025-03-13 16:13:24,494 - INFO - test_views_role 查看角色: ['root374', 'root374']
+2025-03-13 16:15:25,772 - INFO - test_views_role 查看角色: None
+2025-03-13 16:20:06,960 - INFO - test_add_role 添加角色：操作成功
+2025-03-13 16:24:17,273 - INFO - test_add_role 添加角色：操作成功
+2025-03-13 16:24:45,814 - INFO - test_update_role 修改后角色名：root692，原角色名：root488
+2025-03-13 16:24:57,371 - INFO - test_update_role 修改后角色名：root300，原角色名：root488
+2025-03-13 16:27:27,264 - INFO - test_update_role 修改后角色名：root910，原角色名：root488
+2025-03-13 16:28:01,779 - INFO - test_update_role 修改后角色名：root312，原角色名：root910
+2025-03-13 16:28:10,340 - INFO - test_update_role 修改后角色名：root118，原角色名：root312
+2025-03-13 16:28:22,384 - INFO - test_update_role 修改后角色名：root262，原角色名：root118
+2025-03-13 16:49:01,165 - INFO - test_delete_role 删除角色：删除成功
+2025-03-13 16:50:37,987 - INFO - test_update_role 修改角色：操作成功 修改后角色名：root646，原角色名：root374
+2025-03-13 16:59:48,586 - INFO - 开始新一轮执行...当前时间：2025-03-13 16:59:48
+2025-03-13 16:59:48,819 - INFO - ----------邮箱登陆 UI自动化测试---------
+2025-03-13 16:59:54,125 - INFO - test_mail_login_true 登陆提示: 登录成功
+2025-03-13 16:59:56,543 - INFO - test_mail_false 登陆提示: 邮箱 不存在。
+2025-03-13 16:59:59,525 - INFO - test_password_false 登陆提示: 密码错误
+2025-03-13 17:00:01,453 - INFO - test_mail_null 登陆提示: 请输入邮箱
+2025-03-13 17:00:04,578 - INFO - test_password_null 登陆提示: 请输入密码
+2025-03-13 17:00:05,114 - INFO - ----------手机号登陆UI自动化测试---------
+2025-03-13 17:00:07,654 - INFO - test_phone_login_true 登陆提示: 密码错误
+2025-03-13 17:00:11,995 - INFO - test_phone_false 登陆提示: 手机号 不存在。
+2025-03-13 17:00:14,325 - INFO - test_password_false 登陆提示: 密码错误
+2025-03-13 17:00:16,100 - INFO - test_phone_null 登陆提示: 请输入手机号
+2025-03-13 17:00:17,864 - INFO - test_password_null 登陆提示: 请输入密码
+2025-03-13 17:00:18,286 - INFO - ----------子账号登陆 UI自动化测试---------
+2025-03-13 17:00:20,157 - INFO - test_subaccount_login 登陆提示：登录成功
+2025-03-13 17:00:22,083 - INFO - test_subaccount_password_false 登陆提示：密码错误
+2025-03-13 17:00:23,972 - INFO - test_subaccount_false 登陆提示：用户不存在
+2025-03-13 17:00:24,357 - INFO - ----------验证码登陆 UI自动化测试---------
+2025-03-13 17:00:27,185 - INFO - test_code_login_true 登陆提示: 登录成功
+2025-03-13 17:00:29,618 - INFO - test_code_login_false 登陆提示: 短信验证码输入错误
+2025-03-13 17:00:31,359 - INFO - test_code_login_null 登陆提示: 请输入验证码
+2025-03-13 17:00:33,713 - INFO - test_code_phone_login_false 登陆提示: 手机号 不存在。
+2025-03-13 17:00:37,421 - INFO - test_update_username 修改：修改成功
+2025-03-13 17:00:43,168 - INFO - test_update_password 修改：旧密码验证失败
+2025-03-13 17:00:46,341 - INFO - test_update_mail 修改邮箱：操作成功
+2025-03-13 17:00:54,901 - INFO - test_update_phone 修改手机号：操作成功
+2025-03-13 17:00:56,024 - INFO - test_copy_url 复制的登陆地址：https://testai.ptdplat.com/login
+2025-03-13 17:00:58,078 - INFO - test_copy_username 复制的默认别名：737917054421567586
+2025-03-13 17:01:04,636 - INFO - test_update_role 修改角色：操作成功 修改后角色名：root426，原角色名：root646
+2025-03-13 17:01:04,970 - INFO - ----------手机号注册UI自动化测试---------
+2025-03-13 17:01:07,857 - INFO - test_phone_register_true 登陆提示：登录成功
+2025-03-13 17:01:10,268 - INFO - test_phone_false_register 登陆提示：该手机号已注册，请勿重新注册
+2025-03-13 17:01:12,110 - INFO - test_phone_register_passwordnull 登陆提示：请输入密码
+2025-03-13 17:01:13,288 - INFO - test_phone_register_passwordfalse 登陆提示：密码长度应为8~30位
+2025-03-13 17:01:15,320 - INFO - test_phone_register_passwordNo 登陆提示：两次密码不一致
+2025-03-13 17:01:17,748 - INFO - test_phone_register_codefalse 登陆提示：短信验证码输入错误
+2025-03-13 17:01:19,898 - INFO - test_phone_register_codenull 登陆提示：请输入验证码
+2025-03-13 17:01:21,801 - INFO - test_phone_register_agreement 登陆提示：请阅读并同意用户协议和隐私政策
+2025-03-13 17:01:22,374 - INFO - ----------邮箱注册UI自动化测试---------
+2025-03-13 17:01:25,041 - INFO - test_mail_register_true 登陆提示：登录成功
+2025-03-13 17:01:26,490 - INFO - test_mail_register_true 登陆提示：请输入正确的邮箱地址
+2025-03-13 17:01:28,523 - INFO - test_mail_register_true 登陆提示：请输入邮箱
+2025-03-13 17:01:30,978 - INFO - test_mail_register_true 登陆提示：邮箱 已经存在。
+2025-03-13 17:01:32,178 - INFO - test_mail_register_passwordno 登陆提示：两次密码不一致
+2025-03-13 17:01:34,196 - INFO - test_mail_register_passwordnull 登陆提示：请输入密码
+2025-03-13 17:01:35,371 - INFO - test_mail_register_passwordfalse 登陆提示：密码必须包含字母（符号）、数字的至少两种组合。
+2025-03-13 17:01:37,210 - INFO - test_mail_register_codenull 登陆提示：请输入验证码
+2025-03-13 17:01:39,604 - INFO - test_mail_register_code_false 登陆提示：验证码不存在
+2025-03-13 17:01:41,728 - INFO - test_mail_register_agreement 登陆提示：请阅读并同意用户协议和隐私政策
+2025-03-13 17:09:52,241 - INFO - ----------手机号注册UI自动化测试---------
+2025-03-13 17:09:52,243 - INFO - ----------添加查看修改编辑角色 自动化测试---------
+2025-03-13 17:09:52,250 - INFO - ----------手机号登陆UI自动化测试---------
+2025-03-13 17:09:52,258 - INFO - ----------验证码登陆 UI自动化测试---------
+2025-03-13 17:09:52,271 - INFO - ----------邮箱注册UI自动化测试---------
+2025-03-13 17:09:52,278 - INFO - ----------子账号登陆 UI自动化测试---------
+2025-03-13 17:09:52,295 - INFO - ----------邮箱登陆 UI自动化测试---------
+2025-03-13 17:09:52,349 - INFO - ----------添加用户 自动化测试---------
+2025-03-13 17:09:57,606 - INFO - test_phone_register_true 登陆提示：登录成功
+2025-03-13 17:09:58,065 - INFO - test_subaccount_login 登陆提示：登录成功
+2025-03-13 17:09:59,668 - INFO - test_mail_register_true 登陆提示：登录成功
+2025-03-13 17:10:00,433 - INFO - test_phone_login_true 登陆提示: 密码错误
+2025-03-13 17:10:00,594 - INFO - test_update_username 修改：修改成功
+2025-03-13 17:10:01,597 - INFO - test_code_login_true 登陆提示: 登录成功
+2025-03-13 17:10:04,954 - INFO - test_mail_register_true 登陆提示：请输入正确的邮箱地址
+2025-03-13 17:10:05,984 - INFO - test_add_role 添加角色：操作成功
+2025-03-13 17:10:06,102 - INFO - test_phone_false_register 登陆提示：该手机号已注册，请勿重新注册
+2025-03-13 17:10:06,244 - INFO - test_subaccount_password_false 登陆提示：密码错误
+2025-03-13 17:10:07,170 - INFO - test_phone_false 登陆提示: 手机号 不存在。
+2025-03-13 17:10:07,701 - INFO - test_code_login_false 登陆提示: 短信验证码输入错误
+2025-03-13 17:10:09,012 - INFO - test_mail_register_true 登陆提示：请输入邮箱
+2025-03-13 17:10:09,402 - INFO - test_phone_register_passwordnull 登陆提示：请输入密码
+2025-03-13 17:10:10,184 - INFO - test_subaccount_false 登陆提示：用户不存在
+2025-03-13 17:10:10,649 - INFO - test_update_password 修改：旧密码验证失败
+2025-03-13 17:10:11,017 - INFO - test_password_false 登陆提示: 密码错误
+2025-03-13 17:10:11,295 - INFO - test_code_login_null 登陆提示: 请输入验证码
+2025-03-13 17:10:12,459 - INFO - test_phone_register_passwordfalse 登陆提示：密码长度应为8~30位
+2025-03-13 17:10:13,075 - INFO - test_mail_register_true 登陆提示：邮箱 已经存在。
+2025-03-13 17:10:15,170 - INFO - test_phone_null 登陆提示: 请输入手机号
+2025-03-13 17:10:15,632 - INFO - test_update_mail 修改邮箱：操作成功
+2025-03-13 17:10:17,389 - INFO - test_add_user 复制账号密码：复制失败
+2025-03-13 17:10:17,528 - INFO - test_mail_register_passwordno 登陆提示：两次密码不一致
+2025-03-13 17:10:17,539 - INFO - test_views_role 查看角色: ['root959', 'root959']
+2025-03-13 17:10:17,914 - INFO - test_phone_register_passwordNo 登陆提示：两次密码不一致
+2025-03-13 17:10:18,194 - INFO - test_code_phone_login_false 登陆提示: 手机号 不存在。
+2025-03-13 17:10:19,715 - INFO - test_password_null 登陆提示: 请输入密码
+2025-03-13 17:10:20,890 - INFO - test_phone_register_codefalse 登陆提示：短信验证码输入错误
+2025-03-13 17:10:22,725 - INFO - test_phone_register_codenull 登陆提示：请输入验证码
+2025-03-13 17:10:24,735 - INFO - test_phone_register_agreement 登陆提示：请阅读并同意用户协议和隐私政策
+2025-03-13 17:10:25,235 - INFO - 开始新一轮执行...当前时间：2025-03-13 17:10:25
+2025-03-13 17:10:25,696 - INFO - ----------添加查看修改编辑角色 自动化测试---------
+2025-03-13 17:10:25,706 - INFO - ----------验证码登陆 UI自动化测试---------
+2025-03-13 17:10:25,706 - INFO - ----------邮箱注册UI自动化测试---------
+2025-03-13 17:10:25,707 - INFO - ----------手机号注册UI自动化测试---------
+2025-03-13 17:10:25,716 - INFO - ----------邮箱登陆 UI自动化测试---------
+2025-03-13 17:10:25,719 - INFO - ----------手机号登陆UI自动化测试---------
+2025-03-13 17:10:25,719 - INFO - ----------子账号登陆 UI自动化测试---------
+2025-03-13 17:10:25,720 - INFO - ----------添加用户 自动化测试---------
+2025-03-13 17:10:31,142 - INFO - test_update_username 修改：修改成功
+2025-03-13 17:10:31,477 - INFO - test_phone_register_true 登陆提示：登录成功
+2025-03-13 17:10:32,769 - INFO - test_phone_login_true 登陆提示: 密码错误
+2025-03-13 17:10:33,177 - INFO - test_subaccount_login 登陆提示：登录成功
+2025-03-13 17:10:34,177 - INFO - test_mail_register_true 登陆提示：登录成功
+2025-03-13 17:10:34,554 - INFO - test_phone_false_register 登陆提示：该手机号已注册，请勿重新注册
+2025-03-13 17:10:34,603 - INFO - test_add_role 添加角色：操作成功
+2025-03-13 17:10:35,127 - INFO - test_code_login_true 登陆提示: 登录成功
+2025-03-13 17:10:35,627 - INFO - test_phone_false 登陆提示: 手机号 不存在。
+2025-03-13 17:10:36,294 - INFO - test_subaccount_password_false 登陆提示：密码错误
+2025-03-13 17:10:36,703 - INFO - test_mail_register_true 登陆提示：请输入正确的邮箱地址
+2025-03-13 17:10:37,799 - INFO - test_phone_register_passwordnull 登陆提示：请输入密码
+2025-03-13 17:10:38,174 - INFO - test_update_password 修改：旧密码验证失败
+2025-03-13 17:10:38,230 - INFO - test_code_login_false 登陆提示: 短信验证码输入错误
+2025-03-13 17:10:39,126 - INFO - test_password_false 登陆提示: 密码错误
+2025-03-13 17:10:39,407 - INFO - test_subaccount_false 登陆提示：用户不存在
+2025-03-13 17:10:40,021 - INFO - test_phone_register_passwordfalse 登陆提示：密码长度应为8~30位
+2025-03-13 17:10:40,276 - INFO - test_mail_register_true 登陆提示：请输入邮箱
+2025-03-13 17:10:41,448 - INFO - test_code_login_null 登陆提示: 请输入验证码
+2025-03-13 17:10:43,277 - INFO - test_phone_null 登陆提示: 请输入手机号
+2025-03-13 17:10:43,278 - INFO - test_update_mail 修改邮箱：操作成功
+2025-03-13 17:10:46,535 - INFO - test_phone_register_passwordNo 登陆提示：两次密码不一致
+2025-03-13 17:10:47,320 - INFO - test_mail_register_true 登陆提示：邮箱 已经存在。
+2025-03-13 17:10:47,524 - INFO - test_code_phone_login_false 登陆提示: 手机号 不存在。
+2025-03-13 17:10:47,707 - INFO - test_password_null 登陆提示: 请输入密码
+2025-03-13 17:10:48,112 - INFO - test_views_role 查看角色: ['root481', 'root481']
+2025-03-13 17:10:48,329 - INFO - test_add_user 复制账号密码：复制失败
+2025-03-13 17:10:54,902 - INFO - test_update_phone 修改手机号：操作成功
+2025-03-13 17:10:55,989 - INFO - test_copy_url 复制的登陆地址：https://testai.ptdplat.com/login
+2025-03-13 17:10:58,073 - INFO - test_copy_username 复制的默认别名：737917054421567586

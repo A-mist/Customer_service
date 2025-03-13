@@ -7,7 +7,7 @@ from config import log,browser_config
 ## 子账号登陆
 # 成功登陆
 def test_subaccount_login():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/login/account')
     page.locator('[placeholder="登录名 @ 别名"]').fill('test_a@737917054421567586')
     page.locator('[placeholder="请输入密码"]').fill('8-E1t%n3.i2f!GEGXknQx{KuOA')
@@ -17,7 +17,7 @@ def test_subaccount_login():
 
 # 密码错误
 def test_subaccount_password_false():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/login/account')
     page.locator('[placeholder="登录名 @ 别名"]').fill('test_a@737917054421567586')
     page.locator('[placeholder="请输入密码"]').fill('8-E1t%n3.i2fQx{KuOA')
@@ -27,7 +27,7 @@ def test_subaccount_password_false():
 
 #  账号错误
 def test_subaccount_false():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/login/account')
     page.locator('[placeholder="登录名 @ 别名"]').fill('test_a@737921567586')
     page.locator('[placeholder="请输入密码"]').fill('8-E1t%n3.i2f!GEGXknQx{KuOA')

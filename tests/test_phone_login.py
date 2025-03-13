@@ -3,7 +3,7 @@ from config import browser_config,log
 
 
 def test_phone_login_true():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/login')
     page.locator('[placeholder="请输入手机号"]').fill('18513006430')
     page.locator('[placeholder="请输入密码"]').fill('20180914l')
@@ -12,7 +12,7 @@ def test_phone_login_true():
     log.log().info("test_phone_login_true 登陆提示: %s", message)
 
 def test_password_false():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/login')
     page.locator('[placeholder="请输入手机号"]').fill('18513006430')
     page.locator('[placeholder="请输入密码"]').fill('20180914ll')
@@ -22,7 +22,7 @@ def test_password_false():
 
 
 def test_phone_false():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/login')
     page.locator('[placeholder="请输入手机号"]').fill('18513006411')
     page.locator('[placeholder="请输入密码"]').fill('20180914ll')
@@ -31,7 +31,7 @@ def test_phone_false():
     log.log().info("test_phone_false 登陆提示: %s", message)
 
 def test_phone_null():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/login')
     # page.locator('[placeholder="请输入手机号"]').fill('18513006411')
     page.locator('[placeholder="请输入密码"]').fill('20180914ll')
@@ -40,7 +40,7 @@ def test_phone_null():
     log.log().info("test_phone_null 登陆提示: %s", message)
 
 def test_password_null():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
 
     page.goto('https://testai.ptdplat.com/login')
     page.locator('[placeholder="请输入手机号"]').fill('18513006411')

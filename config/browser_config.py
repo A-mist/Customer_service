@@ -42,3 +42,14 @@ def new_browser(playwright: Playwright):
     page = contexts.new_page()
     return page
 
+def new_browser_nologin(playwright: Playwright):
+    browser = playwright.chromium.launch(headless=False, channel="chrome")
+    contexts = browser.new_context(
+        viewport={
+        'width': 1920,
+        'height': 1080,
+        },
+        permissions=["clipboard-read"]
+    )
+    page = contexts.new_page()
+    return page

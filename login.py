@@ -1,10 +1,11 @@
+import time
 
 from playwright.sync_api import sync_playwright, Playwright, expect
 from config import browser_config, log
 
 
 def run():
-    page = browser_config.new_browser(playwright=playwright)
+    page = browser_config.new_browser_nologin(playwright=playwright)
     page.goto('https://testai.ptdplat.com/login')
     page.locator('//*[@id="login-box"]/form/div[3]/div/div/button[1]/span').click()
     page.locator('[placeholder="请输入手机号"]').fill('18513006430')
