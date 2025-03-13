@@ -1,8 +1,28 @@
 import time
 import random
+from time import sleep
 
 from playwright.sync_api  import sync_playwright
 from config import browser_config, log
+
+
+
+def tests_search_user():
+    page = browser_config.new_browser(playwright=playwright)
+    page.goto('https://testai.ptdplat.com/manage/user')
+    modal = page.wait_for_selector('table[class="el-table__body"]')
+    enumerates = modal.query_selector_all('div[class="cell"]')
+    page.query_selector('input[class="el-input__inner"]').fill(enumerates[10].inner_text())
+    page.wait_for_selector('button[class="el-button el-button--primary ML20"]').click()
+    name = enumerates[10].inner_text()
+    time.sleep(1)
+    modal = page.wait_for_selector('table[class="el-table__body"]')
+    enumerates = modal.query_selector_all('div[class="cell"]')
+    if name == enumerates[2].inner_text():
+        log.log().info('用户查询成功：%s', enumerates[1].inner_text())
+    else:
+        log.log().info('用户查询失败')
+
 
 
 def test_add_user():
@@ -18,7 +38,7 @@ def test_add_user():
     element[0].click()
     time.sleep(1)
     modal.wait_for_selector('button[class="el-button el-button--primary"]').click()
-    time.sleep(5)
+    time.sleep(1)
     moda = page.wait_for_selector('div[class="el-dialog is-align-center el-dialog--center preview-dialog"]')
     time.sleep(10)
     moda.wait_for_selector('i[class="iconfont cursor icon-fuzhi"]').click()
@@ -44,8 +64,23 @@ def test_add_user():
         log.log().info('test_add_user 复制账号密码：%s', copy)
 
 
+def tests_delete_user():
+    page = browser_config.new_browser(playwright=playwright)
+    page.goto('https://testai.ptdplat.com/manage/user')
+    modal = page.wait_for_selector('table[class="el-table__body"]')
+    modal.query_selector('span[class="fs14 co-333 cursor-p"]').click()
+    modal = page.wait_for_selector('div[class="el-overlay-message-box"]')
+    modal.query_selector('button[class="el-button el-button--primary"]').click()
+    message = page.locator('.el-message__content').inner_text()
+    log.log().info('tests_delete_user 删除用户：%s', message)
+
+
 
 with sync_playwright() as playwright:
-    log.log().info(f"----------添加用户 自动化测试---------")
-    test_add_user()
-
+    log.log().info(f"----------用户 UI自动化测试---------")
+    # test_add_user()
+    # tests_search_user()
+    i=0
+    while i <30:
+        i = i+1
+        tests_delete_user()

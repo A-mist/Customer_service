@@ -17,11 +17,8 @@ def test_add_role():
     enumerates[0].click()
     modal.query_selector('button[class="el-button el-button--primary"]').click()
     messages = page.locator('.el-message__content').inner_text()
-    log.log().info(f"test_add_role 添加角色：%s", messages)
+    log.log().info(f"test_add_role 添加角色：%s %s",f'root{ran}', messages)
 
-
-
-    time.sleep(5)
 
 
 def test_views_role():
