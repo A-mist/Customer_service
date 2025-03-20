@@ -7,13 +7,12 @@ def log():
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s',
         handlers=[
-            logging.FileHandler(f"/home/lilongwei/PycharmProjects/Customer_service/log/logging.txt"),  # 输出到文件
+            logging.FileHandler(f"/home/MoTong/code/Customer_service-master/Customer_service-master/log/logging.txt"),  # 输出到文件
             logging.StreamHandler()  # 输出到控制台
         ]
     )
 
     return logging
-
 
 
 

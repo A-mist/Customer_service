@@ -36,11 +36,8 @@ def test_add_user():
     elements[1].fill(f'lc_{ran}')
     element = modal.query_selector_all('span[class="el-checkbox__inner"]')
     element[0].click()
-    time.sleep(1)
     modal.wait_for_selector('button[class="el-button el-button--primary"]').click()
-    time.sleep(1)
     moda = page.wait_for_selector('div[class="el-dialog is-align-center el-dialog--center preview-dialog"]')
-    time.sleep(10)
     moda.wait_for_selector('i[class="iconfont cursor icon-fuzhi"]').click()
     message = page.locator('.el-message__content').inner_text()
     if "复制失败" in message:
@@ -78,9 +75,6 @@ def tests_delete_user():
 
 with sync_playwright() as playwright:
     log.log().info(f"----------用户 UI自动化测试---------")
-    # test_add_user()
-    # tests_search_user()
-    i=0
-    while i <30:
-        i = i+1
-        tests_delete_user()
+    test_add_user()
+    tests_search_user()
+    tests_delete_user()

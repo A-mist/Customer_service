@@ -1,11 +1,11 @@
 from lib2to3.fixes.fix_input import context
 import json
-import pymysql
+# import pymysql
 from playwright.sync_api import Playwright,sync_playwright,expect
 
 # def test_delete_mysql():
 #     conn = pymysql.connect(
-#         host='39.107.99.174',
+#         host='xxx.xxx.xx.1xx',
 #         user='root',
 #         password='dd_mysql',
 #         database='test_ai'
@@ -22,7 +22,7 @@ from playwright.sync_api import Playwright,sync_playwright,expect
 #     print(f"已删除：{len(result)} 条自动化数据\n"+'='*20)
 
 def get_login_json():
-    with open("/home/lilongwei/PycharmProjects/Customer_service/config/login.json", "r", encoding="utf-8") as f:
+    with open("/home/MoTong/code/Customer_service-master/Customer_service-master/config/login.json", "r", encoding="utf-8") as f:
         data = json.load(f)
     return data
 
@@ -30,7 +30,7 @@ def get_login_json():
 
 
 def new_browser(playwright: Playwright):
-    browser = playwright.chromium.launch(headless=False, channel="chrome")
+    browser = playwright.chromium.launch(headless=False)
     contexts = browser.new_context(
         viewport={
         'width': 1920,
@@ -43,7 +43,7 @@ def new_browser(playwright: Playwright):
     return page
 
 def new_browser_nologin(playwright: Playwright):
-    browser = playwright.chromium.launch(headless=False, channel="chrome")
+    browser = playwright.chromium.launch(headless=False)
     contexts = browser.new_context(
         viewport={
         'width': 1920,

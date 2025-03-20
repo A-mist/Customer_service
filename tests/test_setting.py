@@ -26,7 +26,7 @@ def test_update_password():
     elements[0].fill(f"lc_{random.randint(10000, 99999)}")
     elements[1].fill(f"lc_{rand}")
     elements[2].fill(f"lc_{rand}")
-    time.sleep(3)
+    time.sleep(1)
     modal.wait_for_selector('button[class="el-button el-button--primary"]').click()
     message = page.locator('.el-message__content').inner_text()
     log.log().info('test_update_password 修改：%s', message)
@@ -49,7 +49,7 @@ def test_update_phone():
     modal = page.wait_for_selector('//*[@id="app"]/div/div[2]/div[2]/div[2]/div[1]/div/div/div[6]/div/div')
     modal.wait_for_selector('input[class="el-input__inner"]').fill(f"1851300{random.randint(1000, 9999)}")
     modal.wait_for_selector('button[class="el-button el-button--primary"]').click()
-    time.sleep(5)
+    time.sleep(2)
     # 手机号复原
     page.locator('//*[@id="app"]/div/div[2]/div[2]/div[2]/div[1]/div/div/div[2]/div/div[2]/div[6]/div[3]/i').click()
     modal = page.wait_for_selector('//*[@id="app"]/div/div[2]/div[2]/div[2]/div[1]/div/div/div[6]/div/div')

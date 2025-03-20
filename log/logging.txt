@@ -859,3 +859,196 @@ playwright._impl._errors.TargetClosedError: Target page, context or browser has 
 2025-03-13 20:34:26,145 - INFO - test_add_role 添加角色：操作成功 root324
 2025-03-13 20:34:41,211 - INFO - ----------添加查看修改编辑角色 自动化测试---------
 2025-03-13 20:34:45,952 - INFO - test_add_role 添加角色：root329 操作成功
+2025-03-18 14:52:00,627 - INFO - 登陆提示: 登录成功
+2025-03-18 14:52:44,712 - INFO - 登陆提示: 登录成功
+2025-03-19 19:05:26,792 - INFO - 开始新一轮执行...当前时间：2025-03-19 19:05:26
+2025-03-19 19:05:44,423 - INFO - ----------邮箱注册UI自动化测试---------
+2025-03-19 19:05:47,108 - ERROR - Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+2025-03-19 19:05:54,044 - INFO - 登陆提示: 登录成功
+2025-03-19 19:05:57,995 - INFO - 开始新一轮执行...当前时间：2025-03-19 19:05:57
+2025-03-19 19:06:01,114 - INFO - test_update_username 修改：修改成功
+2025-03-19 19:06:09,167 - INFO - test_update_password 修改：旧密码验证失败
+2025-03-19 19:06:12,102 - INFO - test_update_mail 修改邮箱：操作成功
+2025-03-19 19:06:20,570 - INFO - test_update_phone 修改手机号：操作成功
+2025-03-19 19:06:21,690 - INFO - test_copy_url 复制的登陆地址：https://testai.ptdplat.com/login
+2025-03-19 19:06:23,624 - INFO - test_copy_username 复制的默认别名：https://testai.ptdplat.com/login
+2025-03-19 19:06:24,041 - INFO - ----------邮箱注册UI自动化测试---------
+2025-03-19 19:06:26,395 - INFO - test_mail_register_true 登陆提示：登录成功
+2025-03-19 19:06:27,546 - INFO - test_mail_register_true 登陆提示：请输入正确的邮箱地址
+2025-03-19 19:06:29,400 - INFO - test_mail_register_true 登陆提示：请输入邮箱
+2025-03-19 19:06:31,663 - INFO - test_mail_register_true 登陆提示：邮箱 已经存在。
+2025-03-19 19:06:32,812 - INFO - test_mail_register_passwordno 登陆提示：两次密码不一致
+2025-03-19 19:06:34,900 - INFO - test_mail_register_passwordnull 登陆提示：请输入密码
+2025-03-19 19:06:36,680 - INFO - test_mail_register_passwordfalse 登陆提示：密码必须包含字母（符号）、数字的至少两种组合。
+2025-03-19 19:06:38,504 - INFO - test_mail_register_codenull 登陆提示：请输入验证码
+2025-03-19 19:06:40,857 - INFO - test_mail_register_code_false 登陆提示：验证码不存在
+2025-03-19 19:06:42,607 - INFO - test_mail_register_agreement 登陆提示：请阅读并同意用户协议和隐私政策
+2025-03-19 19:06:43,603 - INFO - ----------手机号注册UI自动化测试---------
+2025-03-19 19:06:45,940 - INFO - test_phone_register_true 登陆提示：登录成功
+2025-03-19 19:06:48,434 - INFO - test_phone_false_register 登陆提示：该手机号已注册，请勿重新注册
+2025-03-19 19:06:50,829 - INFO - test_phone_register_passwordnull 登陆提示：请输入密码
+2025-03-19 19:06:51,859 - INFO - test_phone_register_passwordfalse 登陆提示：密码长度应为8~30位
+2025-03-19 19:06:52,880 - INFO - test_phone_register_passwordNo 登陆提示：两次密码不一致
+2025-03-19 19:06:55,148 - INFO - test_phone_register_codefalse 登陆提示：短信验证码输入错误
+2025-03-19 19:06:56,885 - INFO - test_phone_register_codenull 登陆提示：请输入验证码
+2025-03-19 19:06:58,595 - INFO - test_phone_register_agreement 登陆提示：请阅读并同意用户协议和隐私政策
+2025-03-19 19:06:59,089 - INFO - ----------验证码登陆 UI自动化测试---------
+2025-03-19 19:07:01,859 - INFO - test_code_login_true 登陆提示: 登录成功
+2025-03-19 19:07:05,613 - INFO - test_code_login_false 登陆提示: 短信验证码输入错误
+2025-03-19 19:07:07,329 - INFO - test_code_login_null 登陆提示: 请输入验证码
+2025-03-19 19:07:09,580 - INFO - test_code_phone_login_false 登陆提示: 手机号 不存在。
+2025-03-19 19:07:09,971 - INFO - ----------邮箱登陆 UI自动化测试---------
+2025-03-19 19:07:12,377 - INFO - test_mail_login_true 登陆提示: 登录成功
+2025-03-19 19:07:14,725 - INFO - test_mail_false 登陆提示: 邮箱 不存在。
+2025-03-19 19:07:16,952 - INFO - test_password_false 登陆提示: 密码错误
+2025-03-19 19:07:18,707 - INFO - test_mail_null 登陆提示: 请输入邮箱
+2025-03-19 19:07:20,457 - INFO - test_password_null 登陆提示: 请输入密码
+2025-03-19 19:07:20,906 - INFO - ----------手机号登陆UI自动化测试---------
+2025-03-19 19:07:23,128 - INFO - test_phone_login_true 登陆提示: 密码错误
+2025-03-19 19:07:25,419 - INFO - test_phone_false 登陆提示: 手机号 不存在。
+2025-03-19 19:07:27,660 - INFO - test_password_false 登陆提示: 密码错误
+2025-03-19 19:07:29,358 - INFO - test_phone_null 登陆提示: 请输入手机号
+2025-03-19 19:07:31,115 - INFO - test_password_null 登陆提示: 请输入密码
+2025-03-19 19:07:31,540 - INFO - ----------添加查看修改编辑角色 自动化测试---------
+2025-03-19 19:07:34,308 - INFO - test_add_role 添加角色：root903 操作成功
+2025-03-19 19:07:36,897 - INFO - test_views_role 查看角色: ['root903', 'root903']
+2025-03-19 19:07:40,296 - INFO - test_update_role 修改角色：操作成功 修改后角色名：root249，原角色名：root903
+2025-03-19 19:07:43,147 - INFO - test_delete_role 删除角色：删除成功
+2025-03-19 19:07:43,546 - INFO - ----------子账号登陆 UI自动化测试---------
+2025-03-19 19:07:45,358 - INFO - test_subaccount_login 登陆提示：子账号不存在
+2025-03-19 19:07:47,041 - INFO - test_subaccount_password_false 登陆提示：子账号不存在
+2025-03-19 19:07:48,826 - INFO - test_subaccount_false 登陆提示：用户不存在
+2025-03-19 19:07:49,186 - INFO - ----------用户 UI自动化测试---------
+2025-03-19 19:07:52,103 - INFO - tests_delete_user 删除用户：删除成功
+2025-03-19 19:07:54,936 - INFO - tests_delete_user 删除用户：删除成功
+2025-03-19 19:09:54,060 - INFO - 开始新一轮执行...当前时间：2025-03-19 19:09:54
+2025-03-19 19:09:57,243 - INFO - test_update_username 修改：修改成功
+2025-03-19 19:10:00,843 - INFO - test_update_password 修改：旧密码验证失败
+2025-03-19 19:10:06,298 - INFO - test_update_mail 修改邮箱：操作成功
+2025-03-19 19:10:10,905 - INFO - test_update_phone 修改手机号：操作成功
+2025-03-19 19:10:11,949 - INFO - test_copy_url 复制的登陆地址：https://testai.ptdplat.com/login
+2025-03-19 19:10:13,844 - INFO - test_copy_username 复制的默认别名：737917054421567586
+2025-03-19 19:10:14,294 - INFO - ----------邮箱注册UI自动化测试---------
+2025-03-19 19:10:16,641 - INFO - test_mail_register_true 登陆提示：登录成功
+2025-03-19 19:10:17,815 - INFO - test_mail_register_true 登陆提示：请输入正确的邮箱地址
+2025-03-19 19:10:19,673 - INFO - test_mail_register_true 登陆提示：请输入邮箱
+2025-03-19 19:10:21,992 - INFO - test_mail_register_true 登陆提示：邮箱 已经存在。
+2025-03-19 19:10:23,057 - INFO - test_mail_register_passwordno 登陆提示：两次密码不一致
+2025-03-19 19:10:24,828 - INFO - test_mail_register_passwordnull 登陆提示：请输入密码
+2025-03-19 19:10:25,910 - INFO - test_mail_register_passwordfalse 登陆提示：密码必须包含字母（符号）、数字的至少两种组合。
+2025-03-19 19:10:27,746 - INFO - test_mail_register_codenull 登陆提示：请输入验证码
+2025-03-19 19:10:30,064 - INFO - test_mail_register_code_false 登陆提示：验证码不存在
+2025-03-19 19:10:31,968 - INFO - test_mail_register_agreement 登陆提示：请阅读并同意用户协议和隐私政策
+2025-03-19 19:10:32,469 - INFO - ----------手机号注册UI自动化测试---------
+2025-03-19 19:10:35,222 - INFO - test_phone_register_true 登陆提示：登录成功
+2025-03-19 19:10:37,140 - INFO - test_phone_false_register 登陆提示：该手机号已注册，请勿重新注册
+2025-03-19 19:10:38,904 - INFO - test_phone_register_passwordnull 登陆提示：请输入密码
+2025-03-19 19:10:39,883 - INFO - test_phone_register_passwordfalse 登陆提示：密码长度应为8~30位
+2025-03-19 19:10:40,868 - INFO - test_phone_register_passwordNo 登陆提示：两次密码不一致
+2025-03-19 19:10:43,143 - INFO - test_phone_register_codefalse 登陆提示：短信验证码输入错误
+2025-03-19 19:10:44,855 - INFO - test_phone_register_codenull 登陆提示：请输入验证码
+2025-03-19 19:10:46,604 - INFO - test_phone_register_agreement 登陆提示：请阅读并同意用户协议和隐私政策
+2025-03-19 19:10:47,052 - INFO - ----------验证码登陆 UI自动化测试---------
+2025-03-19 19:10:49,283 - INFO - test_code_login_true 登陆提示: 登录成功
+2025-03-19 19:10:51,072 - INFO - test_code_login_false 登陆提示: 短信验证码输入错误
+2025-03-19 19:10:52,803 - INFO - test_code_login_null 登陆提示: 请输入验证码
+2025-03-19 19:10:55,018 - INFO - test_code_phone_login_false 登陆提示: 手机号 不存在。
+2025-03-19 19:10:55,386 - INFO - ----------邮箱登陆 UI自动化测试---------
+2025-03-19 19:10:57,673 - INFO - test_mail_login_true 登陆提示: 登录成功
+2025-03-19 19:11:00,028 - INFO - test_mail_false 登陆提示: 邮箱 不存在。
+2025-03-19 19:11:04,350 - INFO - test_password_false 登陆提示: 密码错误
+2025-03-19 19:11:06,080 - INFO - test_mail_null 登陆提示: 请输入邮箱
+2025-03-19 19:11:07,814 - INFO - test_password_null 登陆提示: 请输入密码
+2025-03-19 19:11:08,212 - INFO - ----------手机号登陆UI自动化测试---------
+2025-03-19 19:11:10,474 - INFO - test_phone_login_true 登陆提示: 密码错误
+2025-03-19 19:11:12,173 - INFO - test_phone_false 登陆提示: 手机号 不存在。
+2025-03-19 19:11:14,390 - INFO - test_password_false 登陆提示: 密码错误
+2025-03-19 19:11:16,071 - INFO - test_phone_null 登陆提示: 请输入手机号
+2025-03-19 19:11:17,749 - INFO - test_password_null 登陆提示: 请输入密码
+2025-03-19 19:11:18,139 - INFO - ----------添加查看修改编辑角色 自动化测试---------
+2025-03-19 19:11:20,813 - INFO - test_add_role 添加角色：root605 操作成功
+2025-03-19 19:11:23,303 - INFO - test_views_role 查看角色: ['root605', 'root605']
+2025-03-19 19:11:26,720 - INFO - test_update_role 修改角色：操作成功 修改后角色名：root806，原角色名：root605
+2025-03-19 19:11:29,537 - INFO - test_delete_role 删除角色：删除成功
+2025-03-19 19:11:29,919 - INFO - ----------子账号登陆 UI自动化测试---------
+2025-03-19 19:11:31,620 - INFO - test_subaccount_login 登陆提示：子账号不存在
+2025-03-19 19:11:33,300 - INFO - test_subaccount_password_false 登陆提示：子账号不存在
+2025-03-19 19:11:34,971 - INFO - test_subaccount_false 登陆提示：用户不存在
+2025-03-19 19:11:35,339 - INFO - ----------用户 UI自动化测试---------
+2025-03-19 19:11:48,871 - INFO - test_add_user 复制账号密码：复制失败
+2025-03-19 19:12:56,837 - INFO - ----------用户 UI自动化测试---------
+2025-03-19 19:13:34,967 - INFO - ----------用户 UI自动化测试---------
+2025-03-19 19:13:48,625 - INFO - test_add_user 复制账号密码：复制失败
+2025-03-19 19:13:59,765 - INFO - ----------用户 UI自动化测试---------
+2025-03-19 19:14:05,134 - INFO - test_add_user 复制账号密码：复制失败
+2025-03-19 19:14:18,717 - INFO - ----------用户 UI自动化测试---------
+2025-03-19 19:14:22,398 - INFO - test_add_user 复制账号密码：复制失败
+2025-03-19 19:14:33,486 - INFO - ----------用户 UI自动化测试---------
+2025-03-19 19:14:35,935 - INFO - test_add_user 复制账号密码：复制失败
+2025-03-19 19:14:38,789 - INFO - ----------用户 UI自动化测试---------
+2025-03-19 19:14:41,200 - INFO - test_add_user 复制账号密码：复制失败
+2025-03-19 19:14:53,699 - INFO - ----------用户 UI自动化测试---------
+2025-03-19 19:14:56,524 - INFO - 用户查询成功：lc_37059@737917054421567586
+2025-03-19 19:15:05,421 - INFO - ----------用户 UI自动化测试---------
+2025-03-19 19:15:07,838 - INFO - test_add_user 复制账号密码：复制失败
+2025-03-19 19:15:10,720 - INFO - 用户查询成功：lc_70183@737917054421567586
+2025-03-19 19:15:13,571 - INFO - tests_delete_user 删除用户：删除成功
+2025-03-20 09:41:50,789 - INFO - 开始新一轮执行...当前时间：2025-03-20 09:41:50
+2025-03-20 09:41:54,024 - INFO - test_update_username 修改：修改成功
+2025-03-20 09:41:57,560 - INFO - test_update_password 修改：旧密码验证失败
+2025-03-20 09:42:00,511 - INFO - test_update_mail 修改邮箱：操作成功
+2025-03-20 09:42:06,135 - INFO - test_update_phone 修改手机号：操作成功
+2025-03-20 09:42:07,197 - INFO - test_copy_url 复制的登陆地址：https://testai.ptdplat.com/login
+2025-03-20 09:42:09,061 - INFO - test_copy_username 复制的默认别名：737917054421567586
+2025-03-20 09:42:09,499 - INFO - ----------邮箱注册UI自动化测试---------
+2025-03-20 09:42:11,888 - INFO - test_mail_register_true 登陆提示：登录成功
+2025-03-20 09:42:13,252 - INFO - test_mail_register_true 登陆提示：请输入正确的邮箱地址
+2025-03-20 09:42:15,056 - INFO - test_mail_register_true 登陆提示：请输入邮箱
+2025-03-20 09:42:17,438 - INFO - test_mail_register_true 登陆提示：邮箱 已经存在。
+2025-03-20 09:42:18,604 - INFO - test_mail_register_passwordno 登陆提示：两次密码不一致
+2025-03-20 09:42:20,407 - INFO - test_mail_register_passwordnull 登陆提示：请输入密码
+2025-03-20 09:42:21,486 - INFO - test_mail_register_passwordfalse 登陆提示：密码必须包含字母（符号）、数字的至少两种组合。
+2025-03-20 09:42:23,310 - INFO - test_mail_register_codenull 登陆提示：请输入验证码
+2025-03-20 09:42:26,647 - INFO - test_mail_register_code_false 登陆提示：验证码不存在
+2025-03-20 09:42:28,415 - INFO - test_mail_register_agreement 登陆提示：请阅读并同意用户协议和隐私政策
+2025-03-20 09:42:28,924 - INFO - ----------手机号注册UI自动化测试---------
+2025-03-20 09:42:31,204 - INFO - test_phone_register_true 登陆提示：登录成功
+2025-03-20 09:42:33,057 - INFO - test_phone_false_register 登陆提示：该手机号已注册，请勿重新注册
+2025-03-20 09:42:34,786 - INFO - test_phone_register_passwordnull 登陆提示：请输入密码
+2025-03-20 09:42:35,783 - INFO - test_phone_register_passwordfalse 登陆提示：密码长度应为8~30位
+2025-03-20 09:42:36,846 - INFO - test_phone_register_passwordNo 登陆提示：两次密码不一致
+2025-03-20 09:42:40,209 - INFO - test_phone_register_codefalse 登陆提示：短信验证码输入错误
+2025-03-20 09:42:41,939 - INFO - test_phone_register_codenull 登陆提示：请输入验证码
+2025-03-20 09:42:43,703 - INFO - test_phone_register_agreement 登陆提示：请阅读并同意用户协议和隐私政策
+2025-03-20 09:42:44,183 - INFO - ----------验证码登陆 UI自动化测试---------
+2025-03-20 09:42:46,399 - INFO - test_code_login_true 登陆提示: 登录成功
+2025-03-20 09:42:48,704 - INFO - test_code_login_false 登陆提示: 短信验证码输入错误
+2025-03-20 09:42:50,484 - INFO - test_code_login_null 登陆提示: 请输入验证码
+2025-03-20 09:42:53,685 - INFO - test_code_phone_login_false 登陆提示: 手机号 不存在。
+2025-03-20 09:42:54,065 - INFO - ----------邮箱登陆 UI自动化测试---------
+2025-03-20 09:42:56,378 - INFO - test_mail_login_true 登陆提示: 登录成功
+2025-03-20 09:42:58,660 - INFO - test_mail_false 登陆提示: 邮箱 不存在。
+2025-03-20 09:43:00,912 - INFO - test_password_false 登陆提示: 密码错误
+2025-03-20 09:43:02,731 - INFO - test_mail_null 登陆提示: 请输入邮箱
+2025-03-20 09:43:04,398 - INFO - test_password_null 登陆提示: 请输入密码
+2025-03-20 09:43:04,804 - INFO - ----------手机号登陆UI自动化测试---------
+2025-03-20 09:43:07,010 - INFO - test_phone_login_true 登陆提示: 密码错误
+2025-03-20 09:43:08,864 - INFO - test_phone_false 登陆提示: 手机号 不存在。
+2025-03-20 09:43:11,318 - INFO - test_password_false 登陆提示: 密码错误
+2025-03-20 09:43:13,043 - INFO - test_phone_null 登陆提示: 请输入手机号
+2025-03-20 09:43:14,804 - INFO - test_password_null 登陆提示: 请输入密码
+2025-03-20 09:43:15,196 - INFO - ----------添加查看修改编辑角色 自动化测试---------
+2025-03-20 09:43:17,846 - INFO - test_add_role 添加角色：root943 操作成功
+2025-03-20 09:43:20,303 - INFO - test_views_role 查看角色: ['root943', 'root943']
+2025-03-20 09:43:23,551 - INFO - test_update_role 修改角色：操作成功 修改后角色名：root811，原角色名：root943
+2025-03-20 09:43:26,387 - INFO - test_delete_role 删除角色：删除成功
+2025-03-20 09:43:26,782 - INFO - ----------子账号登陆 UI自动化测试---------
+2025-03-20 09:43:28,483 - INFO - test_subaccount_login 登陆提示：子账号不存在
+2025-03-20 09:43:30,180 - INFO - test_subaccount_password_false 登陆提示：子账号不存在
+2025-03-20 09:43:31,868 - INFO - test_subaccount_false 登陆提示：用户不存在
+2025-03-20 09:43:32,247 - INFO - ----------用户 UI自动化测试---------
+2025-03-20 09:43:34,646 - INFO - test_add_user 复制账号密码：复制失败
+2025-03-20 09:43:37,491 - INFO - 用户查询成功：lc_70183@737917054421567586
+2025-03-20 09:43:40,446 - INFO - tests_delete_user 删除用户：删除成功

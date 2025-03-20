@@ -5,7 +5,7 @@ from config import log
 from pathlib import Path
 
 
-folder_path =f"/home/lilongwei/PycharmProjects/Customer_service/tests"
+folder_path =f"/home/MoTong/code/Customer_service-master/Customer_service-master/tests"
 
 
 def get_filenames_using_glob(folder_path):
@@ -26,7 +26,7 @@ def run():
         print("错误:", result.stderr)
         print("输出:", result.stdout)
         print("返回码:", result.returncode)
-        print("-" * 40)
+        print("-" * 50)
 
 
 if __name__ == '__main__':
