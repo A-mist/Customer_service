@@ -1,7 +1,6 @@
 import pytest
 import requests
-import json
-from datetime import datetime
+
 
 class TestLoginAPI:
     def setup_class(self):
@@ -97,7 +96,7 @@ class TestLoginAPI:
         
         assert response.status_code == 415
 
-    def _log_test_result(self, response, test_name):
+    def static_log_test_result(self, response, test_name):
         """记录测试结果"""
         print(f"\n=== {test_name} ===")
         print(f"Request URL: {response.request.url}")
