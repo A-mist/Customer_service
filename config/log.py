@@ -1,5 +1,6 @@
 # 配置日志
 import logging
+import log.config as path
 
 
 def log():
@@ -7,11 +8,10 @@ def log():
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s',
         handlers=[
-            logging.FileHandler(f"/home/MoTong/code/Customer_service-master/Customer_service-master/log/logging.txt"),  # 输出到文件
+            logging.FileHandler(path.logging_path),  # 输出到文件
             logging.StreamHandler()  # 输出到控制台
         ]
     )
-
     return logging
 
 
@@ -21,12 +21,11 @@ def api_log():
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s',
         handlers=[
-            logging.FileHandler(f"/home/MoTong/code/Customer_service-master/Customer_service-master/log/apilog.txt"),  # 输出到文件
+            logging.FileHandler(path.logging_path),  # 输出到文件
             logging.StreamHandler()  # 输出到控制台
         ]
     )
     return logging
-
 
 
 

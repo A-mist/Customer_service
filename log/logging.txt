@@ -1172,3 +1172,75 @@ playwright._impl._errors.TargetClosedError: Target page, context or browser has 
 
 
 
+2025-04-07 17:16:10,556 - INFO - 登陆提示: 登录成功
+2025-04-07 17:23:39,663 - INFO - 登陆提示: 登录成功
+2025-04-07 17:25:07,140 - INFO - 开始新一轮执行...当前时间：2025-04-07 17:25:07
+2025-04-07 17:25:10,390 - INFO - test_update_username 修改：修改成功
+2025-04-07 17:25:14,946 - INFO - test_update_password 修改：旧密码验证失败
+2025-04-07 17:25:17,846 - INFO - test_update_mail 修改邮箱：操作成功
+2025-04-07 17:25:22,435 - INFO - test_update_phone 修改手机号：操作成功
+2025-04-07 17:25:23,673 - INFO - test_copy_url 复制的登陆地址：https://testai.ptdplat.com/login
+2025-04-07 17:25:25,490 - INFO - test_copy_username 复制的默认别名：737917054421567586
+2025-04-07 17:25:26,673 - INFO - ----------邮箱注册UI自动化测试---------
+2025-04-07 17:25:29,006 - INFO - test_mail_register_true 登陆提示：登录成功
+2025-04-07 17:25:30,161 - INFO - test_mail_register_true 登陆提示：请输入正确的邮箱地址
+2025-04-07 17:25:32,055 - INFO - test_mail_register_true 登陆提示：请输入邮箱
+2025-04-07 17:25:33,871 - INFO - test_mail_register_true 登陆提示：邮箱 已经存在。
+2025-04-07 17:25:35,802 - INFO - test_mail_register_passwordno 登陆提示：两次密码不一致
+2025-04-07 17:25:38,995 - INFO - test_mail_register_passwordnull 登陆提示：请输入密码
+2025-04-07 17:25:40,845 - INFO - test_mail_register_passwordfalse 登陆提示：密码必须包含字母（符号）、数字的至少两种组合。
+2025-04-07 17:25:42,679 - INFO - test_mail_register_codenull 登陆提示：请输入验证码
+2025-04-07 17:25:44,572 - INFO - test_mail_register_code_false 登陆提示：验证码不存在
+2025-04-07 17:25:46,417 - INFO - test_mail_register_agreement 登陆提示：请阅读并同意用户协议和隐私政策
+2025-04-07 17:25:47,308 - INFO - ----------手机号注册UI自动化测试---------
+2025-04-07 17:25:49,937 - INFO - test_phone_register_true 登陆提示：登录成功
+2025-04-07 17:25:51,892 - INFO - test_phone_false_register 登陆提示：该手机号已注册，请勿重新注册
+2025-04-07 17:25:53,728 - INFO - test_phone_register_passwordnull 登陆提示：请输入密码
+2025-04-07 17:25:54,764 - INFO - test_phone_register_passwordfalse 登陆提示：密码长度应为8~30位
+2025-04-07 17:25:55,905 - INFO - test_phone_register_passwordNo 登陆提示：两次密码不一致
+2025-04-07 17:25:57,842 - INFO - test_phone_register_codefalse 登陆提示：短信验证码输入错误
+2025-04-07 17:26:00,710 - INFO - test_phone_register_codenull 登陆提示：请输入验证码
+2025-04-07 17:26:02,536 - INFO - test_phone_register_agreement 登陆提示：请阅读并同意用户协议和隐私政策
+2025-04-07 17:26:02,984 - INFO - ----------验证码登陆 UI自动化测试---------
+2025-04-07 17:26:05,334 - INFO - test_code_login_true 登陆提示: 登录成功
+2025-04-07 17:26:07,319 - INFO - test_code_login_false 登陆提示: 短信验证码输入错误
+2025-04-07 17:26:09,022 - INFO - test_code_login_null 登陆提示: 请输入验证码
+2025-04-07 17:26:10,837 - INFO - test_code_phone_login_false 登陆提示: 手机号 不存在。
+2025-04-07 17:26:11,211 - INFO - ----------邮箱登陆 UI自动化测试---------
+2025-04-07 17:26:13,544 - INFO - test_mail_login_true 登陆提示: 登录成功
+2025-04-07 17:26:15,510 - INFO - test_mail_false 登陆提示: 邮箱 不存在。
+2025-04-07 17:26:17,765 - INFO - test_password_false 登陆提示: 密码错误
+2025-04-07 17:26:20,582 - INFO - test_mail_null 登陆提示: 请输入邮箱
+2025-04-07 17:26:22,313 - INFO - test_password_null 登陆提示: 请输入密码
+2025-04-07 17:26:22,738 - INFO - ----------手机号登陆UI自动化测试---------
+2025-04-07 17:26:25,009 - INFO - test_phone_login_true 登陆提示: 密码错误
+2025-04-07 17:26:26,865 - INFO - test_phone_false 登陆提示: 手机号 不存在。
+2025-04-07 17:26:29,213 - INFO - test_password_false 登陆提示: 密码错误
+2025-04-07 17:26:30,943 - INFO - test_phone_null 登陆提示: 请输入手机号
+2025-04-07 17:26:32,817 - INFO - test_password_null 登陆提示: 请输入密码
+2025-04-07 17:26:33,210 - INFO - ----------添加查看修改编辑角色 自动化测试---------
+2025-04-07 17:26:36,014 - INFO - test_add_role 添加角色：root462 操作成功
+2025-04-07 17:26:38,520 - INFO - test_views_role 查看角色: ['root462', 'root462']
+2025-04-07 17:26:41,833 - INFO - test_update_role 修改角色：操作成功 修改后角色名：root160，原角色名：root462
+2025-04-07 17:26:44,634 - INFO - test_delete_role 删除角色：删除成功
+2025-04-07 17:26:45,008 - INFO - ----------子账号登陆 UI自动化测试---------
+2025-04-07 17:26:46,737 - INFO - test_subaccount_login 登陆提示：子账号不存在
+2025-04-07 17:26:47,061 - INFO - ----------用户 UI自动化测试---------
+2025-04-07 17:26:49,472 - INFO - test_add_user 复制账号密码：复制失败
+2025-04-07 17:26:52,324 - INFO - 用户查询成功：lc_70183@737917054421567586
+2025-04-07 17:26:54,675 - INFO - tests_delete_user 删除用户：删除成功
+2025-04-07 17:48:12,900 - INFO - 登陆提示: 登录成功
+2025-04-07 17:54:57,734 - INFO - 登陆提示: 登录成功
+2025-04-07 18:12:08,214 - INFO - 登陆提示: 登录成功
+2025-04-07 18:15:44,513 - INFO - 登陆提示: 登录成功
+2025-04-07 18:17:25,915 - INFO - 登陆提示: 登录成功
+2025-04-07 18:43:14,036 - INFO - Generating grammar tables from /usr/lib/python3.12/lib2to3/Grammar.txt
+2025-04-07 18:43:14,047 - INFO - Generating grammar tables from /usr/lib/python3.12/lib2to3/PatternGrammar.txt
+2025-04-07 18:43:37,988 - INFO - 登陆提示: 登录成功
+2025-04-08 11:06:32,248 - INFO - 登陆提示: 登录成功
+2025-04-08 14:44:45,391 - INFO - 登陆提示: 登录成功
+2025-04-08 14:46:06,554 - INFO - 登陆提示: 登录成功
+
+
+
+
