@@ -1,6 +1,6 @@
 import time
 
-from playwright.sync_api import sync_playwright, Playwright, expect
+from playwright.sync_api import sync_playwright
 from config import browser_config, log
 
 
@@ -12,7 +12,7 @@ def run():
     page.locator('[placeholder="请输入验证码"]').fill('000000')
     page.locator('//*[@id="captcha"]').click()
     message = page.locator('.el-message__content').inner_text()
-    log.log().info("登陆提示: %s", message)
+    log.setup_logger().info("登陆提示: %s", message)
     page.context.storage_state(path='config/login.json')
     page.close()
 

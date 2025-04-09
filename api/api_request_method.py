@@ -1,8 +1,5 @@
-from http.client import responses
-
 import requests
 
-from tools.read_excel import ReadExcel
 
 
 class ApiSearch(object):
@@ -23,6 +20,16 @@ class ApiSearch(object):
                 "Content-Type": "application/json"
             }
             response=requests.get(url)
+            return response
+
+
+        @staticmethod
+        def api_put(url, data):
+            headers = {
+                "User-Agent": "",
+                "Content-Type": "application/json"
+            }
+            response=requests.put(url, json=data, headers=headers)
             return response
 
 
